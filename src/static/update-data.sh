@@ -1,1 +1,0 @@
-pwd && curl "https://cdn.mbta.com/realtime/TripUpdates_enhanced.json" > trip_updates.json

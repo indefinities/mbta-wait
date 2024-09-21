@@ -1,0 +1,14 @@
+name: "retrieve and filter data"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs workflow at 12:00am every day
+jobs:
+  # updates the local CSV file
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+      - name: "Download updated trip updates file"
+        run: pwd && curl "https://cdn.mbta.com/realtime/TripUpdates_enhanced.json" > ./src/lib/data/trip_updates.json

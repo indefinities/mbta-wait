@@ -59,33 +59,29 @@ for entry in entity:
             'schedule': list()
         }
 
-        for stop in stop_time_update:
-            # if there's no schedule_relationship cancellation
-            if 'schedule_relationship' not in stop:
-                stop_id = stop.get('stop_id')
-                stop_name = stops.loc[stops['stop_id'] == stop_id, 'stop_name'].values[0]
-                start_ms = datetime.strptime(f'{start_date} {start_time}',
-                            '%Y%m%d %H:%M:%S').timestamp() * 1000
-                arrival = stop.get('arrival', dict(time = start_ms)).get('time', 0)
-                departure = stop.get('departure', dict(time = 0)).get('time', 0)
-                wait_time = int(departure) - int(arrival) if departure > arrival > 0 else int(start_ms) - int(departure)
-                stop_entry = {
-                    'stop_name': stop_name,
-                    'arrival': arrival,
-                    'departure': departure,
-                    'wait_time': wait_time if departure > 0 else 0
-                }
-                route_entry['schedule'].append(stop_entry)
-
-        # Add the route entry to trips once all functions are iterated through
-        trips.append(route_entry)
+        # check if there's more than one entry in the schedule
+        if len(stop_time_update) > 1:
+            for stop in stop_time_update:
+                # if there's no schedule_relationship cancellation
+                if 'schedule_relationship' not in stop:
+                    stop_id = stop.get('stop_id')
+                    stop_name = stops.loc[stops['stop_id'] == stop_id, 'stop_name'].values[0]
+                    start_ms = datetime.strptime(f'{start_date} {start_time}',
+                                '%Y%m%d %H:%M:%S').timestamp() * 1000
+                    arrival = stop.get('arrival', dict(time = start_ms)).get('time', 0)
+                    departure = stop.get('departure', dict(time = 0)).get('time', 0)
+                    wait_time = int(departure) - int(arrival) if departure > arrival > 0 else int(start_ms) - int(departure)
+                    stop_entry = {
+                        'stop_name': stop_name,
+                        'arrival': arrival,
+                        'departure': departure,
+                        'wait_time': wait_time if departure > 0 else 0
+                    }
+                    route_entry['schedule'].append(stop_entry)
+            # Add the route entry to trips once all functions are iterated through
+            trips.append(route_entry)
 
 # Change dictionary into json.dumps to export JSONs
-colors_obj = json.dumps(dict(colors = line_colors))
-
-with open("data/colors.json", "w") as outfile:
-    outfile.write(colors_obj)
-
 trips_obj = json.dumps(dict(trips = trips))
 
 with open("data/filtered_trips.json", "w") as outfile:

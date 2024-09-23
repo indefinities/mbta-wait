@@ -3,10 +3,7 @@
     export let color, data, width, height;
 
     const radius = 10;
-    const rect = {
-        w: 10,
-        h: 20
-    }
+    const rectWidth = 10;
 
     $: yScale = d3.scaleBand()
     .domain(data)
@@ -26,7 +23,7 @@
                 <rect
                     x={ radius/2 }
                     y={ yScale(d) }
-                    width={ 10 }
+                    width={ rectWidth }
                     height={ yScale.bandwidth() }
                     stroke={ color } 
                     fill={ color } 

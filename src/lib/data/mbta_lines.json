@@ -1,5 +1,5 @@
 {
-    "mbta_lines": [
+    "lines": [
         {
             "line": "Red",
             "stops": [
@@ -15,7 +15,7 @@
                 "South Station",
                 "Broadway",
                 "Andrew",
-                "JFK/ UMass",
+                "JFK/UMass",
                 "North Quincy",
                 "Wollaston",
                 "Quincy Center",
@@ -38,7 +38,7 @@
                 "South Station",
                 "Broadway",
                 "Andrew",
-                "JFK/ UMass",
+                "JFK/UMass",
                 "Savin Hill",
                 "Fields Corner",
                 "Shawmut",
@@ -70,7 +70,6 @@
                 "Forest Hills"
             ]
         },
-
         {
             "line": "Green-B",
             "stops": [
@@ -108,7 +107,6 @@
                 "Boston College"
             ]
         },
-
         {
             "line": "Green-C",
             "stops": [
@@ -146,11 +144,7 @@
         {
             "line": "Green-D",
             "stops": [
-                "Medford/Tufts",
-                "Ball Square",
-                "Magoun Square",
-                "Gilman Square",
-                "East Somerville",
+                "Union Square",
                 "Lechmere",
                 "Science Park/West End",
                 "North Station",
@@ -177,35 +171,34 @@
                 "Riverside"
             ]
         },
-
         {
             "line": "Green-E",
             "stops": [
-                "Heath Street",
-                "Back of the Hill",
-                "Riverway",
-                "Mission Park",
-                "Fenwood Road",
-                "Brigham Circle",
-                "Longwood Medical Area",
-                "Museum of Fine Arts",
-                "Northeastern University",
-                "Symphony",
-                "Prudential",
-                "Copley",
-                "Arlington",
-                "Boylston",
-                "Park Street",
-                "Government Center",
-                "Haymarket",
-                "North Station",
-                "Science Park/West End",
-                "Lechmere",
-                "East Somerville",
-                "Gilman Square",
-                "Magoun Square",
+                "Medford/Tufts",
                 "Ball Square",
-                "Medford/Tufts"
+                "Magoun Square",
+                "Gilman Square",
+                "East Somerville",
+                "Lechmere",
+                "Science Park/West End",
+                "North Station",
+                "Haymarket",
+                "Government Center",
+                "Park Street",
+                "Boylston",
+                "Arlington",
+                "Copley",
+                "Prudential",
+                "Symphony",
+                "Northeastern University",
+                "Museum of Fine Arts",
+                "Longwood Medical Area",
+                "Brigham Circle",
+                "Fenwood Road",
+                "Mission Park",
+                "Riverway",
+                "Back of the Hill",
+                "Heath Street"
             ]
         },
         {

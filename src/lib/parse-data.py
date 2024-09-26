@@ -26,7 +26,7 @@ dir = df1[(df1['route_id'].str.contains(lines_pattern, case=False, na=False)) & 
 # Shuttles will be a future iteration
 
 # Open the existing trips JSON file and load its contents
-with open('data/existing_trip_updates.json', 'r') as file:
+with open('data/trip_updates.json', 'r') as file:
     json_data1 = json.load(file)
 
 # Access the "entity" key
@@ -44,9 +44,12 @@ all_entity = entity + new_entity;
 
 # Create a new dictionary with the "entity" key as JSON format
 all_entity_obj = { "entity": all_entity }
+
 # Turn the dictionary into a str using json/dumps
 all_entity_json = json.dumps(all_entity_obj)
 
+# TODO: before exporting this file, cross check with dates.json 
+# to remove entries before a week ago
 # Export all entities into trip_updates.json
 with open("data/trip_updates.json", "w") as outfile:
     outfile.write(all_entity_json)
@@ -97,24 +100,17 @@ for entry in all_entity:
             }
             all_trips.append(new_entry)
 
-# TODO: find the average trip duration for the trip by subtracting the departure of the first stop (start_time)
-# minus the arrival of the last stop and add those to the first and last elements of the JSON
-
 # Create a new dataframe from the array of dictionaries 
 # (this should be easier because dictionaries are not nested and have same column names)
 all_trips_df = pd.DataFrame(all_trips)
 all_trips_df['avg_wait_time'] = all_trips_df.groupby(['start_date', 'route_id', 'direction_id', 'stop_id'])['wait_time'].transform('mean')
-grouped_trips = all_trips_df[['route_id', 'route_name', 'direction_id', 'direction', 'start_date', 'stop_name', 'avg_wait_time']].drop_duplicates()
+last_stop_arrivals = all_trips_df.groupby(['start_date', 'route_id', 'direction_id'])['arrival'].transform('max')
+first_stop_departures = all_trips_df.groupby(['start_date', 'route_id', 'direction_id'])['departure'].transform(lambda x: x[x>0].min())
+all_trips_df['total_trip_time'] = last_stop_arrivals - first_stop_departures
+all_trips_df['avg_total_trip_time'] = all_trips_df.groupby(['start_date', 'route_id', 'direction_id'])['total_trip_time'].transform('mean')
+grouped_trips = all_trips_df[['route_id', 'route_name', 'direction_id', 'direction', 'start_date', 'avg_total_trip_time', 'stop_name', 'avg_wait_time']].drop_duplicates()
 # Initialize an empty dictionary for the JSON structure
 grouped_trips_obj = {"trips": []}
-
-# Get the current dates available for the data
-curr_dates_df = all_trips_df[['start_date']].drop_duplicates()
-curr_dates = curr_dates_df['start_date'].tolist()
-curr_dates_json = json.dumps(dict(dates=curr_dates))
-
-with open("data/curr_dates.json", "w") as outfile:
-    outfile.write(curr_dates_json)
 
 with open('data/mbta_lines.json', 'r') as file:
     json_data3 = json.load(file)
@@ -150,16 +146,25 @@ def sort_stops(dir_id, arr):
     return result
 
 # Iterate through the unique combinations of 'route_name', 'direction', and 'start_date'
-for (route_id, route_name, direction_id, direction, start_date), group in grouped_trips.groupby(['route_id', 'route_name', 'direction_id', 'direction', 'start_date']):
+for (route_id, route_name, direction_id, direction, start_date, avg_total_trip_time), group in grouped_trips.groupby(['route_id', 'route_name', 'direction_id', 'direction', 'start_date', 'avg_total_trip_time']):
     trip = {
         "route_id": route_id,
         "route_name": route_name,
         'direction_id': int(direction_id),
         "direction": direction,
         "start_date": start_date,
+        "total_trip_time": int(avg_total_trip_time),
         "stops": sort_stops(direction_id, group[["stop_name", "avg_wait_time"]].to_dict(orient='records'))
     }
     grouped_trips_obj["trips"].append(trip)
+
+# Get the current dates available for the data
+curr_dates_df = all_trips_df[['start_date']].drop_duplicates()
+curr_dates = curr_dates_df['start_date'].tolist()
+curr_dates_json = json.dumps(dict(dates=curr_dates))
+
+with open("data/curr_dates.json", "w") as outfile:
+    outfile.write(curr_dates_json)
 
 # Change dictionary into json.dumps to export JSONs
 grouped_trips_json = json.dumps(grouped_trips_obj)

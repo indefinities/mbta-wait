@@ -13,15 +13,14 @@
 
   const dates = currDates.dates;
 
-  const select = allTrips.trips[20]
+  const select = allTrips.trips[4]
   const line = select.route_id;
   const allStops = select.stops;
   const color = line.indexOf('-') > 0 ? line.slice(0, line.indexOf('-')) : line;
 
-  // TODO: also get the total time of the trip by gathering the departure time of the first stop minus 
-  // the arrival time of the final stop, visualize using the OneLine component
-  const totalTime = allStops.reduce((sum, stop) => sum + stop.avg_wait_time, 0);
-
+  const totalWaitTime = allStops.reduce((sum, stop) => sum + stop.avg_wait_time, 0);
+  const totalTripTime = select.total_trip_time;
+  const totalTime = [totalWaitTime, totalTripTime]
   const dataCopy = allStops.slice();
   const endStops = [ dataCopy.shift(), dataCopy.pop() ];
 </script>
@@ -37,7 +36,7 @@
   </div>
 
   <div class="centered-section">
-    <OneLine {color} width={800} height={50} {endStops} {totalTime} />
+    <OneLine {color} width={800} height={80} {endStops} {totalTime} />
   </div>
 </div>
 

@@ -1,6 +1,5 @@
 name: "retrieve and filter data"
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Runs workflow at 12:00am every day
@@ -20,10 +19,8 @@ jobs:
           python-version: '3.12'
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip pandas
-      - name: Print working directory
-        run: pwd
-      - name: List files in src/lib
-        run: ls -la ./src/lib
+      - name: Print working directory and list files in src/lib
+        run: pwd && ls -la ./src/lib
       - name: Run Python script
         working-directory: ./src/lib
         run: python parse-data.py

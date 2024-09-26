@@ -1,1 +1,2412 @@
-{"trips": [{"route_id": "Blue", "route_name": "Bowdoin", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Bowdoin", "avg_wait_time": 0}, {"stop_name": "Government Center", "avg_wait_time": 49}, {"stop_name": "State", "avg_wait_time": 47}, {"stop_name": "Aquarium", "avg_wait_time": 46}, {"stop_name": "Maverick", "avg_wait_time": 50}, {"stop_name": "Airport", "avg_wait_time": 43}, {"stop_name": "Wood Island", "avg_wait_time": 36}, {"stop_name": "Orient Heights", "avg_wait_time": 38}, {"stop_name": "Suffolk Downs", "avg_wait_time": 34}, {"stop_name": "Beachmont", "avg_wait_time": 36}, {"stop_name": "Revere Beach", "avg_wait_time": 53}, {"stop_name": "Wonderland", "avg_wait_time": 0}]}, {"route_id": "Blue", "route_name": "Bowdoin", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Bowdoin", "avg_wait_time": 0}, {"stop_name": "Government Center", "avg_wait_time": 54}, {"stop_name": "State", "avg_wait_time": 54}, {"stop_name": "Aquarium", "avg_wait_time": 56}, {"stop_name": "Maverick", "avg_wait_time": 65}, {"stop_name": "Airport", "avg_wait_time": 48}, {"stop_name": "Wood Island", "avg_wait_time": 44}, {"stop_name": "Orient Heights", "avg_wait_time": 50}, {"stop_name": "Suffolk Downs", "avg_wait_time": 35}, {"stop_name": "Beachmont", "avg_wait_time": 42}, {"stop_name": "Revere Beach", "avg_wait_time": 39}, {"stop_name": "Wonderland", "avg_wait_time": 0}]}, {"route_id": "Blue", "route_name": "Bowdoin", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Wonderland", "avg_wait_time": 0}, {"stop_name": "Revere Beach", "avg_wait_time": 41}, {"stop_name": "Beachmont", "avg_wait_time": 38}, {"stop_name": "Suffolk Downs", "avg_wait_time": 41}, {"stop_name": "Orient Heights", "avg_wait_time": 44}, {"stop_name": "Wood Island", "avg_wait_time": 38}, {"stop_name": "Airport", "avg_wait_time": 50}, {"stop_name": "Maverick", "avg_wait_time": 61}, {"stop_name": "Aquarium", "avg_wait_time": 51}, {"stop_name": "State", "avg_wait_time": 56}, {"stop_name": "Government Center", "avg_wait_time": 63}, {"stop_name": "Bowdoin", "avg_wait_time": 0}]}, {"route_id": "Blue", "route_name": "Bowdoin", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Wonderland", "avg_wait_time": 0}, {"stop_name": "Revere Beach", "avg_wait_time": 40}, {"stop_name": "Beachmont", "avg_wait_time": 44}, {"stop_name": "Suffolk Downs", "avg_wait_time": 46}, {"stop_name": "Orient Heights", "avg_wait_time": 44}, {"stop_name": "Wood Island", "avg_wait_time": 40}, {"stop_name": "Airport", "avg_wait_time": 45}, {"stop_name": "Maverick", "avg_wait_time": 59}, {"stop_name": "Aquarium", "avg_wait_time": 46}, {"stop_name": "State", "avg_wait_time": 64}, {"stop_name": "Government Center", "avg_wait_time": 65}, {"stop_name": "Bowdoin", "avg_wait_time": 0}]}, {"route_id": "Green-B", "route_name": "Boston College", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Government Center", "avg_wait_time": 0}, {"stop_name": "Park Street", "avg_wait_time": 91}, {"stop_name": "Boylston", "avg_wait_time": 37}, {"stop_name": "Arlington", "avg_wait_time": 41}, {"stop_name": "Copley", "avg_wait_time": 58}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 60}, {"stop_name": "Kenmore", "avg_wait_time": 56}, {"stop_name": "Blandford Street", "avg_wait_time": 48}, {"stop_name": "Boston University East", "avg_wait_time": 47}, {"stop_name": "Boston University Central", "avg_wait_time": 42}, {"stop_name": "Amory Street", "avg_wait_time": 42}, {"stop_name": "Babcock Street", "avg_wait_time": 49}, {"stop_name": "Packard's Corner", "avg_wait_time": 42}, {"stop_name": "Harvard Avenue", "avg_wait_time": 96}, {"stop_name": "Griggs Street", "avg_wait_time": 36}, {"stop_name": "Allston Street", "avg_wait_time": 66}, {"stop_name": "Warren Street", "avg_wait_time": 41}, {"stop_name": "Washington Street", "avg_wait_time": 69}, {"stop_name": "Sutherland Road", "avg_wait_time": 37}, {"stop_name": "Chiswick Road", "avg_wait_time": 36}, {"stop_name": "Chestnut Hill Avenue", "avg_wait_time": 65}, {"stop_name": "South Street", "avg_wait_time": 30}, {"stop_name": "Boston College", "avg_wait_time": 0}]}, {"route_id": "Green-B", "route_name": "Boston College", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Government Center", "avg_wait_time": 0}, {"stop_name": "Park Street", "avg_wait_time": 116}, {"stop_name": "Boylston", "avg_wait_time": 43}, {"stop_name": "Arlington", "avg_wait_time": 35}, {"stop_name": "Copley", "avg_wait_time": 102}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 65}, {"stop_name": "Kenmore", "avg_wait_time": 50}, {"stop_name": "Blandford Street", "avg_wait_time": 55}, {"stop_name": "Boston University East", "avg_wait_time": 66}, {"stop_name": "Boston University Central", "avg_wait_time": 58}, {"stop_name": "Amory Street", "avg_wait_time": 50}, {"stop_name": "Babcock Street", "avg_wait_time": 49}, {"stop_name": "Packard's Corner", "avg_wait_time": 37}, {"stop_name": "Harvard Avenue", "avg_wait_time": 71}, {"stop_name": "Griggs Street", "avg_wait_time": 39}, {"stop_name": "Allston Street", "avg_wait_time": 65}, {"stop_name": "Warren Street", "avg_wait_time": 35}, {"stop_name": "Washington Street", "avg_wait_time": 66}, {"stop_name": "Sutherland Road", "avg_wait_time": 36}, {"stop_name": "Chiswick Road", "avg_wait_time": 28}, {"stop_name": "Chestnut Hill Avenue", "avg_wait_time": 68}, {"stop_name": "South Street", "avg_wait_time": 48}, {"stop_name": "Boston College", "avg_wait_time": 0}]}, {"route_id": "Green-B", "route_name": "Boston College", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Chestnut Hill Avenue", "avg_wait_time": 41}, {"stop_name": "Chiswick Road", "avg_wait_time": 35}, {"stop_name": "Sutherland Road", "avg_wait_time": 35}, {"stop_name": "Washington Street", "avg_wait_time": 41}, {"stop_name": "Warren Street", "avg_wait_time": 79}, {"stop_name": "Allston Street", "avg_wait_time": 37}, {"stop_name": "Griggs Street", "avg_wait_time": 36}, {"stop_name": "Harvard Avenue", "avg_wait_time": 101}, {"stop_name": "Packard's Corner", "avg_wait_time": 47}, {"stop_name": "Babcock Street", "avg_wait_time": 47}, {"stop_name": "Amory Street", "avg_wait_time": 42}, {"stop_name": "Boston University Central", "avg_wait_time": 48}, {"stop_name": "Boston University East", "avg_wait_time": 84}, {"stop_name": "Blandford Street", "avg_wait_time": 45}, {"stop_name": "Kenmore", "avg_wait_time": 106}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 83}, {"stop_name": "Copley", "avg_wait_time": 53}, {"stop_name": "Arlington", "avg_wait_time": 46}, {"stop_name": "Boylston", "avg_wait_time": 44}, {"stop_name": "Park Street", "avg_wait_time": 80}, {"stop_name": "Government Center", "avg_wait_time": 0}]}, {"route_id": "Green-B", "route_name": "Boston College", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Sutherland Road", "avg_wait_time": 35}, {"stop_name": "Washington Street", "avg_wait_time": 53}, {"stop_name": "Warren Street", "avg_wait_time": 89}, {"stop_name": "Allston Street", "avg_wait_time": 48}, {"stop_name": "Griggs Street", "avg_wait_time": 43}, {"stop_name": "Harvard Avenue", "avg_wait_time": 74}, {"stop_name": "Packard's Corner", "avg_wait_time": 59}, {"stop_name": "Babcock Street", "avg_wait_time": 54}, {"stop_name": "Amory Street", "avg_wait_time": 72}, {"stop_name": "Boston University Central", "avg_wait_time": 84}, {"stop_name": "Boston University East", "avg_wait_time": 67}, {"stop_name": "Blandford Street", "avg_wait_time": 46}, {"stop_name": "Kenmore", "avg_wait_time": 51}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 42}, {"stop_name": "Copley", "avg_wait_time": 65}, {"stop_name": "Arlington", "avg_wait_time": 43}, {"stop_name": "Boylston", "avg_wait_time": 45}, {"stop_name": "Park Street", "avg_wait_time": 68}, {"stop_name": "Government Center", "avg_wait_time": 0}]}, {"route_id": "Green-C", "route_name": "Cleveland Circle", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Government Center", "avg_wait_time": 0}, {"stop_name": "Park Street", "avg_wait_time": 64}, {"stop_name": "Boylston", "avg_wait_time": 37}, {"stop_name": "Arlington", "avg_wait_time": 41}, {"stop_name": "Copley", "avg_wait_time": 58}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 60}, {"stop_name": "Kenmore", "avg_wait_time": 74}, {"stop_name": "Saint Mary's Street", "avg_wait_time": 48}, {"stop_name": "Hawes Street", "avg_wait_time": 35}, {"stop_name": "Kent Street", "avg_wait_time": 50}, {"stop_name": "Saint Paul Street", "avg_wait_time": 41}, {"stop_name": "Coolidge Corner", "avg_wait_time": 47}, {"stop_name": "Summit Avenue", "avg_wait_time": 35}, {"stop_name": "Brandon Hall", "avg_wait_time": 35}, {"stop_name": "Fairbanks Street", "avg_wait_time": 35}, {"stop_name": "Washington Square", "avg_wait_time": 71}, {"stop_name": "Tappan Street", "avg_wait_time": 35}, {"stop_name": "Dean Road", "avg_wait_time": 47}, {"stop_name": "Englewood Avenue", "avg_wait_time": 35}, {"stop_name": "Cleveland Circle", "avg_wait_time": 0}]}, {"route_id": "Green-C", "route_name": "Cleveland Circle", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Government Center", "avg_wait_time": 0}, {"stop_name": "Park Street", "avg_wait_time": 75}, {"stop_name": "Boylston", "avg_wait_time": 43}, {"stop_name": "Arlington", "avg_wait_time": 35}, {"stop_name": "Copley", "avg_wait_time": 102}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 65}, {"stop_name": "Kenmore", "avg_wait_time": 46}, {"stop_name": "Saint Mary's Street", "avg_wait_time": 41}, {"stop_name": "Hawes Street", "avg_wait_time": 33}, {"stop_name": "Kent Street", "avg_wait_time": 71}, {"stop_name": "Saint Paul Street", "avg_wait_time": 78}, {"stop_name": "Coolidge Corner", "avg_wait_time": 66}, {"stop_name": "Summit Avenue", "avg_wait_time": 47}, {"stop_name": "Brandon Hall", "avg_wait_time": 38}, {"stop_name": "Fairbanks Street", "avg_wait_time": 30}, {"stop_name": "Washington Square", "avg_wait_time": 72}, {"stop_name": "Tappan Street", "avg_wait_time": 53}, {"stop_name": "Dean Road", "avg_wait_time": 59}, {"stop_name": "Englewood Avenue", "avg_wait_time": 35}, {"stop_name": "Cleveland Circle", "avg_wait_time": 0}]}, {"route_id": "Green-C", "route_name": "Cleveland Circle", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Saint Mary's Street", "avg_wait_time": 70}, {"stop_name": "Kenmore", "avg_wait_time": 159}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 83}, {"stop_name": "Copley", "avg_wait_time": 53}, {"stop_name": "Arlington", "avg_wait_time": 46}, {"stop_name": "Boylston", "avg_wait_time": 44}, {"stop_name": "Park Street", "avg_wait_time": 80}, {"stop_name": "Government Center", "avg_wait_time": 0}]}, {"route_id": "Green-C", "route_name": "Cleveland Circle", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Englewood Avenue", "avg_wait_time": 53}, {"stop_name": "Dean Road", "avg_wait_time": 37}, {"stop_name": "Tappan Street", "avg_wait_time": 47}, {"stop_name": "Washington Square", "avg_wait_time": 41}, {"stop_name": "Fairbanks Street", "avg_wait_time": 30}, {"stop_name": "Brandon Hall", "avg_wait_time": 35}, {"stop_name": "Summit Avenue", "avg_wait_time": 41}, {"stop_name": "Coolidge Corner", "avg_wait_time": 82}, {"stop_name": "Saint Paul Street", "avg_wait_time": 72}, {"stop_name": "Kent Street", "avg_wait_time": 55}, {"stop_name": "Hawes Street", "avg_wait_time": 18}, {"stop_name": "Saint Mary's Street", "avg_wait_time": 40}, {"stop_name": "Kenmore", "avg_wait_time": 50}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 42}, {"stop_name": "Copley", "avg_wait_time": 58}, {"stop_name": "Arlington", "avg_wait_time": 45}, {"stop_name": "Boylston", "avg_wait_time": 46}, {"stop_name": "Park Street", "avg_wait_time": 67}, {"stop_name": "Government Center", "avg_wait_time": 0}]}, {"route_id": "Green-D", "route_name": "Riverside", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Lechmere", "avg_wait_time": 54}, {"stop_name": "Science Park/West End", "avg_wait_time": 34}, {"stop_name": "North Station", "avg_wait_time": 12}, {"stop_name": "Haymarket", "avg_wait_time": 35}, {"stop_name": "Government Center", "avg_wait_time": 46}, {"stop_name": "Park Street", "avg_wait_time": 56}, {"stop_name": "Boylston", "avg_wait_time": 37}, {"stop_name": "Arlington", "avg_wait_time": 41}, {"stop_name": "Copley", "avg_wait_time": 58}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 60}, {"stop_name": "Kenmore", "avg_wait_time": 74}, {"stop_name": "Fenway", "avg_wait_time": 259}, {"stop_name": "Longwood", "avg_wait_time": 43}, {"stop_name": "Brookline Village", "avg_wait_time": 51}, {"stop_name": "Brookline Hills", "avg_wait_time": 42}, {"stop_name": "Beaconsfield", "avg_wait_time": 53}, {"stop_name": "Reservoir", "avg_wait_time": 48}, {"stop_name": "Chestnut Hill", "avg_wait_time": 43}, {"stop_name": "Newton Centre", "avg_wait_time": 41}, {"stop_name": "Newton Highlands", "avg_wait_time": 41}, {"stop_name": "Eliot", "avg_wait_time": 36}, {"stop_name": "Waban", "avg_wait_time": 31}, {"stop_name": "Woodland", "avg_wait_time": 42}, {"stop_name": "Riverside", "avg_wait_time": 0}]}, {"route_id": "Green-D", "route_name": "Riverside", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Lechmere", "avg_wait_time": 75}, {"stop_name": "Science Park/West End", "avg_wait_time": 40}, {"stop_name": "North Station", "avg_wait_time": 11}, {"stop_name": "Haymarket", "avg_wait_time": 44}, {"stop_name": "Government Center", "avg_wait_time": 62}, {"stop_name": "Park Street", "avg_wait_time": 0}, {"stop_name": "Park Street", "avg_wait_time": 82}, {"stop_name": "Boylston", "avg_wait_time": 43}, {"stop_name": "Arlington", "avg_wait_time": 36}, {"stop_name": "Copley", "avg_wait_time": 92}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 65}, {"stop_name": "Kenmore", "avg_wait_time": 50}, {"stop_name": "Fenway", "avg_wait_time": 60}, {"stop_name": "Longwood", "avg_wait_time": 53}, {"stop_name": "Brookline Village", "avg_wait_time": 65}, {"stop_name": "Brookline Hills", "avg_wait_time": 47}, {"stop_name": "Beaconsfield", "avg_wait_time": 59}, {"stop_name": "Reservoir", "avg_wait_time": 60}, {"stop_name": "Chestnut Hill", "avg_wait_time": 48}, {"stop_name": "Newton Centre", "avg_wait_time": 48}, {"stop_name": "Newton Highlands", "avg_wait_time": 49}, {"stop_name": "Eliot", "avg_wait_time": 42}, {"stop_name": "Waban", "avg_wait_time": 51}, {"stop_name": "Woodland", "avg_wait_time": 36}, {"stop_name": "Riverside", "avg_wait_time": 0}]}, {"route_id": "Green-D", "route_name": "Riverside", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Woodland", "avg_wait_time": 43}, {"stop_name": "Waban", "avg_wait_time": 31}, {"stop_name": "Eliot", "avg_wait_time": 41}, {"stop_name": "Newton Highlands", "avg_wait_time": 47}, {"stop_name": "Newton Centre", "avg_wait_time": 48}, {"stop_name": "Chestnut Hill", "avg_wait_time": 53}, {"stop_name": "Reservoir", "avg_wait_time": 61}, {"stop_name": "Beaconsfield", "avg_wait_time": 30}, {"stop_name": "Brookline Hills", "avg_wait_time": 29}, {"stop_name": "Brookline Village", "avg_wait_time": 52}, {"stop_name": "Longwood", "avg_wait_time": 42}, {"stop_name": "Fenway", "avg_wait_time": 61}, {"stop_name": "Kenmore", "avg_wait_time": 159}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 83}, {"stop_name": "Copley", "avg_wait_time": 53}, {"stop_name": "Arlington", "avg_wait_time": 46}, {"stop_name": "Boylston", "avg_wait_time": 44}, {"stop_name": "Park Street", "avg_wait_time": 80}, {"stop_name": "Government Center", "avg_wait_time": 25}, {"stop_name": "Haymarket", "avg_wait_time": 51}, {"stop_name": "North Station", "avg_wait_time": 51}, {"stop_name": "Science Park/West End", "avg_wait_time": 31}, {"stop_name": "Lechmere", "avg_wait_time": 49}, {"stop_name": "Union Square", "avg_wait_time": 0}]}, {"route_id": "Green-D", "route_name": "Riverside", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Newton Highlands", "avg_wait_time": 53}, {"stop_name": "Newton Centre", "avg_wait_time": 54}, {"stop_name": "Chestnut Hill", "avg_wait_time": 55}, {"stop_name": "Reservoir", "avg_wait_time": 59}, {"stop_name": "Beaconsfield", "avg_wait_time": 65}, {"stop_name": "Brookline Hills", "avg_wait_time": 72}, {"stop_name": "Brookline Village", "avg_wait_time": 56}, {"stop_name": "Longwood", "avg_wait_time": 52}, {"stop_name": "Fenway", "avg_wait_time": 52}, {"stop_name": "Kenmore", "avg_wait_time": 50}, {"stop_name": "Hynes Convention Center", "avg_wait_time": 51}, {"stop_name": "Copley", "avg_wait_time": 65}, {"stop_name": "Arlington", "avg_wait_time": 45}, {"stop_name": "Boylston", "avg_wait_time": 46}, {"stop_name": "Park Street", "avg_wait_time": 72}, {"stop_name": "Park Street", "avg_wait_time": 0}, {"stop_name": "Government Center", "avg_wait_time": 20}, {"stop_name": "Haymarket", "avg_wait_time": 68}, {"stop_name": "North Station", "avg_wait_time": 88}, {"stop_name": "Science Park/West End", "avg_wait_time": 43}, {"stop_name": "Lechmere", "avg_wait_time": 240}, {"stop_name": "Union Square", "avg_wait_time": 0}]}, {"route_id": "Green-E", "route_name": "Heath Street", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Lechmere", "avg_wait_time": 48}, {"stop_name": "Science Park/West End", "avg_wait_time": 34}, {"stop_name": "North Station", "avg_wait_time": 12}, {"stop_name": "Haymarket", "avg_wait_time": 35}, {"stop_name": "Government Center", "avg_wait_time": 46}, {"stop_name": "Park Street", "avg_wait_time": 64}, {"stop_name": "Boylston", "avg_wait_time": 37}, {"stop_name": "Arlington", "avg_wait_time": 41}, {"stop_name": "Copley", "avg_wait_time": 58}, {"stop_name": "Prudential", "avg_wait_time": 43}, {"stop_name": "Symphony", "avg_wait_time": 38}, {"stop_name": "Northeastern University", "avg_wait_time": 96}, {"stop_name": "Museum of Fine Arts", "avg_wait_time": 91}, {"stop_name": "Longwood Medical Area", "avg_wait_time": 47}, {"stop_name": "Brigham Circle", "avg_wait_time": 105}, {"stop_name": "Fenwood Road", "avg_wait_time": 36}, {"stop_name": "Mission Park", "avg_wait_time": 66}, {"stop_name": "Riverway", "avg_wait_time": 29}, {"stop_name": "Back of the Hill", "avg_wait_time": 17}, {"stop_name": "Heath Street", "avg_wait_time": 0}]}, {"route_id": "Green-E", "route_name": "Heath Street", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "North Station", "avg_wait_time": 0}, {"stop_name": "Haymarket", "avg_wait_time": 44}, {"stop_name": "Government Center", "avg_wait_time": 51}, {"stop_name": "Park Street", "avg_wait_time": 80}, {"stop_name": "Boylston", "avg_wait_time": 43}, {"stop_name": "Arlington", "avg_wait_time": 35}, {"stop_name": "Copley", "avg_wait_time": 105}, {"stop_name": "Prudential", "avg_wait_time": 53}, {"stop_name": "Symphony", "avg_wait_time": 45}, {"stop_name": "Northeastern University", "avg_wait_time": 104}, {"stop_name": "Museum of Fine Arts", "avg_wait_time": 66}, {"stop_name": "Longwood Medical Area", "avg_wait_time": 57}, {"stop_name": "Brigham Circle", "avg_wait_time": 89}, {"stop_name": "Fenwood Road", "avg_wait_time": 41}, {"stop_name": "Mission Park", "avg_wait_time": 73}, {"stop_name": "Riverway", "avg_wait_time": 12}, {"stop_name": "Back of the Hill", "avg_wait_time": 35}, {"stop_name": "Heath Street", "avg_wait_time": 0}]}, {"route_id": "Green-E", "route_name": "Heath Street", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Heath Street", "avg_wait_time": 0}, {"stop_name": "Back of the Hill", "avg_wait_time": 12}, {"stop_name": "Riverway", "avg_wait_time": 18}, {"stop_name": "Mission Park", "avg_wait_time": 53}, {"stop_name": "Fenwood Road", "avg_wait_time": 12}, {"stop_name": "Brigham Circle", "avg_wait_time": 47}, {"stop_name": "Longwood Medical Area", "avg_wait_time": 41}, {"stop_name": "Museum of Fine Arts", "avg_wait_time": 36}, {"stop_name": "Northeastern University", "avg_wait_time": 54}, {"stop_name": "Symphony", "avg_wait_time": 39}, {"stop_name": "Prudential", "avg_wait_time": 46}, {"stop_name": "Copley", "avg_wait_time": 52}, {"stop_name": "Arlington", "avg_wait_time": 44}, {"stop_name": "Boylston", "avg_wait_time": 43}, {"stop_name": "Park Street", "avg_wait_time": 80}, {"stop_name": "Government Center", "avg_wait_time": 25}, {"stop_name": "Haymarket", "avg_wait_time": 51}, {"stop_name": "North Station", "avg_wait_time": 51}, {"stop_name": "Science Park/West End", "avg_wait_time": 31}, {"stop_name": "Lechmere", "avg_wait_time": 49}, {"stop_name": "East Somerville", "avg_wait_time": 42}, {"stop_name": "Gilman Square", "avg_wait_time": 42}, {"stop_name": "Magoun Square", "avg_wait_time": 35}, {"stop_name": "Ball Square", "avg_wait_time": 41}, {"stop_name": "Medford/Tufts", "avg_wait_time": 0}]}, {"route_id": "Green-E", "route_name": "Heath Street", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Heath Street", "avg_wait_time": 0}, {"stop_name": "Back of the Hill", "avg_wait_time": 35}, {"stop_name": "Riverway", "avg_wait_time": 42}, {"stop_name": "Mission Park", "avg_wait_time": 53}, {"stop_name": "Fenwood Road", "avg_wait_time": 18}, {"stop_name": "Brigham Circle", "avg_wait_time": 116}, {"stop_name": "Longwood Medical Area", "avg_wait_time": 72}, {"stop_name": "Museum of Fine Arts", "avg_wait_time": 66}, {"stop_name": "Northeastern University", "avg_wait_time": 144}, {"stop_name": "Symphony", "avg_wait_time": 58}, {"stop_name": "Prudential", "avg_wait_time": 65}, {"stop_name": "Copley", "avg_wait_time": 65}, {"stop_name": "Arlington", "avg_wait_time": 45}, {"stop_name": "Boylston", "avg_wait_time": 46}, {"stop_name": "Park Street", "avg_wait_time": 68}, {"stop_name": "Government Center", "avg_wait_time": 25}, {"stop_name": "Haymarket", "avg_wait_time": 68}, {"stop_name": "North Station", "avg_wait_time": 77}, {"stop_name": "Science Park/West End", "avg_wait_time": 43}, {"stop_name": "Lechmere", "avg_wait_time": 0}, {"stop_name": "East Somerville", "avg_wait_time": 0}, {"stop_name": "Gilman Square", "avg_wait_time": 0}, {"stop_name": "Magoun Square", "avg_wait_time": 0}, {"stop_name": "Ball Square", "avg_wait_time": 0}, {"stop_name": "Medford/Tufts", "avg_wait_time": 0}]}, {"route_id": "Orange", "route_name": "Forest Hills", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Oak Grove", "avg_wait_time": 0}, {"stop_name": "Malden Center", "avg_wait_time": 43}, {"stop_name": "Wellington", "avg_wait_time": 51}, {"stop_name": "Assembly", "avg_wait_time": 48}, {"stop_name": "Sullivan Square", "avg_wait_time": 44}, {"stop_name": "Community College", "avg_wait_time": 49}, {"stop_name": "North Station", "avg_wait_time": 20}, {"stop_name": "Haymarket", "avg_wait_time": 42}, {"stop_name": "State", "avg_wait_time": 55}, {"stop_name": "Downtown Crossing", "avg_wait_time": 50}, {"stop_name": "Chinatown", "avg_wait_time": 42}, {"stop_name": "Tufts Medical Center", "avg_wait_time": 15}, {"stop_name": "Back Bay", "avg_wait_time": 55}, {"stop_name": "Massachusetts Avenue", "avg_wait_time": 45}, {"stop_name": "Ruggles", "avg_wait_time": 53}, {"stop_name": "Roxbury Crossing", "avg_wait_time": 47}, {"stop_name": "Jackson Square", "avg_wait_time": 40}, {"stop_name": "Stony Brook", "avg_wait_time": 46}, {"stop_name": "Green Street", "avg_wait_time": 46}, {"stop_name": "Forest Hills", "avg_wait_time": 0}]}, {"route_id": "Orange", "route_name": "Forest Hills", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Oak Grove", "avg_wait_time": 0}, {"stop_name": "Malden Center", "avg_wait_time": 48}, {"stop_name": "Wellington", "avg_wait_time": 49}, {"stop_name": "Assembly", "avg_wait_time": 52}, {"stop_name": "Sullivan Square", "avg_wait_time": 47}, {"stop_name": "Community College", "avg_wait_time": 55}, {"stop_name": "North Station", "avg_wait_time": 17}, {"stop_name": "Haymarket", "avg_wait_time": 44}, {"stop_name": "State", "avg_wait_time": 58}, {"stop_name": "Downtown Crossing", "avg_wait_time": 56}, {"stop_name": "Chinatown", "avg_wait_time": 43}, {"stop_name": "Tufts Medical Center", "avg_wait_time": 16}, {"stop_name": "Back Bay", "avg_wait_time": 59}, {"stop_name": "Massachusetts Avenue", "avg_wait_time": 47}, {"stop_name": "Ruggles", "avg_wait_time": 57}, {"stop_name": "Roxbury Crossing", "avg_wait_time": 48}, {"stop_name": "Jackson Square", "avg_wait_time": 39}, {"stop_name": "Stony Brook", "avg_wait_time": 45}, {"stop_name": "Green Street", "avg_wait_time": 41}, {"stop_name": "Forest Hills", "avg_wait_time": 0}]}, {"route_id": "Orange", "route_name": "Forest Hills", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Forest Hills", "avg_wait_time": 0}, {"stop_name": "Green Street", "avg_wait_time": 18}, {"stop_name": "Stony Brook", "avg_wait_time": 35}, {"stop_name": "Jackson Square", "avg_wait_time": 44}, {"stop_name": "Roxbury Crossing", "avg_wait_time": 40}, {"stop_name": "Ruggles", "avg_wait_time": 19}, {"stop_name": "Massachusetts Avenue", "avg_wait_time": 46}, {"stop_name": "Back Bay", "avg_wait_time": 51}, {"stop_name": "Tufts Medical Center", "avg_wait_time": 53}, {"stop_name": "Chinatown", "avg_wait_time": 44}, {"stop_name": "Downtown Crossing", "avg_wait_time": 62}, {"stop_name": "State", "avg_wait_time": 48}, {"stop_name": "Haymarket", "avg_wait_time": 47}, {"stop_name": "North Station", "avg_wait_time": 49}, {"stop_name": "Community College", "avg_wait_time": 47}, {"stop_name": "Sullivan Square", "avg_wait_time": 68}, {"stop_name": "Assembly", "avg_wait_time": 53}, {"stop_name": "Wellington", "avg_wait_time": 67}, {"stop_name": "Malden Center", "avg_wait_time": 51}, {"stop_name": "Oak Grove", "avg_wait_time": 0}]}, {"route_id": "Orange", "route_name": "Forest Hills", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Forest Hills", "avg_wait_time": 0}, {"stop_name": "Green Street", "avg_wait_time": 16}, {"stop_name": "Stony Brook", "avg_wait_time": 34}, {"stop_name": "Jackson Square", "avg_wait_time": 51}, {"stop_name": "Roxbury Crossing", "avg_wait_time": 48}, {"stop_name": "Ruggles", "avg_wait_time": 17}, {"stop_name": "Massachusetts Avenue", "avg_wait_time": 62}, {"stop_name": "Back Bay", "avg_wait_time": 59}, {"stop_name": "Tufts Medical Center", "avg_wait_time": 57}, {"stop_name": "Chinatown", "avg_wait_time": 49}, {"stop_name": "Downtown Crossing", "avg_wait_time": 66}, {"stop_name": "State", "avg_wait_time": 58}, {"stop_name": "Haymarket", "avg_wait_time": 47}, {"stop_name": "North Station", "avg_wait_time": 46}, {"stop_name": "Community College", "avg_wait_time": 49}, {"stop_name": "Sullivan Square", "avg_wait_time": 65}, {"stop_name": "Assembly", "avg_wait_time": 54}, {"stop_name": "Wellington", "avg_wait_time": 61}, {"stop_name": "Malden Center", "avg_wait_time": 63}, {"stop_name": "Oak Grove", "avg_wait_time": 0}]}, {"route_id": "Red", "route_name": "Ashmont/Braintree", "direction_id": 0, "direction": "West", "start_date": "20240917", "stops": [{"stop_name": "Alewife", "avg_wait_time": 0}, {"stop_name": "Davis", "avg_wait_time": 56}, {"stop_name": "Porter", "avg_wait_time": 48}, {"stop_name": "Harvard", "avg_wait_time": 83}, {"stop_name": "Central", "avg_wait_time": 89}, {"stop_name": "Kendall/MIT", "avg_wait_time": 51}, {"stop_name": "Charles/MGH", "avg_wait_time": 54}, {"stop_name": "Park Street", "avg_wait_time": 45}, {"stop_name": "Downtown Crossing", "avg_wait_time": 60}, {"stop_name": "South Station", "avg_wait_time": 14}, {"stop_name": "Broadway", "avg_wait_time": 18}, {"stop_name": "Andrew", "avg_wait_time": 0}, {"stop_name": "JFK/UMass", "avg_wait_time": 0}, {"stop_name": "Savin Hill", "avg_wait_time": 0}, {"stop_name": "Fields Corner", "avg_wait_time": 0}, {"stop_name": "Shawmut", "avg_wait_time": 0}, {"stop_name": "Ashmont", "avg_wait_time": 0}]}, {"route_id": "Red", "route_name": "Ashmont/Braintree", "direction_id": 0, "direction": "West", "start_date": "20240926", "stops": [{"stop_name": "Alewife", "avg_wait_time": 0}, {"stop_name": "Davis", "avg_wait_time": 50}, {"stop_name": "Porter", "avg_wait_time": 41}, {"stop_name": "Harvard", "avg_wait_time": 66}, {"stop_name": "Central", "avg_wait_time": 58}, {"stop_name": "Kendall/MIT", "avg_wait_time": 65}, {"stop_name": "Charles/MGH", "avg_wait_time": 60}, {"stop_name": "Park Street", "avg_wait_time": 83}, {"stop_name": "Downtown Crossing", "avg_wait_time": 74}, {"stop_name": "South Station", "avg_wait_time": 13}, {"stop_name": "Broadway", "avg_wait_time": 19}, {"stop_name": "Andrew", "avg_wait_time": 53}, {"stop_name": "JFK/UMass", "avg_wait_time": 81}, {"stop_name": "Savin Hill", "avg_wait_time": 66}, {"stop_name": "Fields Corner", "avg_wait_time": 96}, {"stop_name": "Shawmut", "avg_wait_time": 55}, {"stop_name": "Ashmont", "avg_wait_time": 0}]}, {"route_id": "Red", "route_name": "Ashmont/Braintree", "direction_id": 1, "direction": "East", "start_date": "20240917", "stops": [{"stop_name": "Ashmont", "avg_wait_time": 0}, {"stop_name": "Shawmut", "avg_wait_time": 0}, {"stop_name": "Fields Corner", "avg_wait_time": 0}, {"stop_name": "Savin Hill", "avg_wait_time": 0}, {"stop_name": "JFK/UMass", "avg_wait_time": 0}, {"stop_name": "Andrew", "avg_wait_time": 15}, {"stop_name": "Broadway", "avg_wait_time": 51}, {"stop_name": "South Station", "avg_wait_time": 28}, {"stop_name": "Downtown Crossing", "avg_wait_time": 48}, {"stop_name": "Park Street", "avg_wait_time": 43}, {"stop_name": "Charles/MGH", "avg_wait_time": 53}, {"stop_name": "Kendall/MIT", "avg_wait_time": 49}, {"stop_name": "Central", "avg_wait_time": 45}, {"stop_name": "Harvard", "avg_wait_time": 40}, {"stop_name": "Porter", "avg_wait_time": 10}, {"stop_name": "Davis", "avg_wait_time": 11}, {"stop_name": "Alewife", "avg_wait_time": 0}]}, {"route_id": "Red", "route_name": "Ashmont/Braintree", "direction_id": 1, "direction": "East", "start_date": "20240926", "stops": [{"stop_name": "Ashmont", "avg_wait_time": 0}, {"stop_name": "Shawmut", "avg_wait_time": 47}, {"stop_name": "Fields Corner", "avg_wait_time": 48}, {"stop_name": "Savin Hill", "avg_wait_time": 65}, {"stop_name": "JFK/UMass", "avg_wait_time": 61}, {"stop_name": "Andrew", "avg_wait_time": 17}, {"stop_name": "Broadway", "avg_wait_time": 55}, {"stop_name": "South Station", "avg_wait_time": 62}, {"stop_name": "Downtown Crossing", "avg_wait_time": 64}, {"stop_name": "Park Street", "avg_wait_time": 72}, {"stop_name": "Charles/MGH", "avg_wait_time": 73}, {"stop_name": "Kendall/MIT", "avg_wait_time": 74}, {"stop_name": "Central", "avg_wait_time": 71}, {"stop_name": "Harvard", "avg_wait_time": 64}, {"stop_name": "Porter", "avg_wait_time": 16}, {"stop_name": "Davis", "avg_wait_time": 19}, {"stop_name": "Alewife", "avg_wait_time": 0}]}]}
+{
+    "trips": [
+        {
+            "route_id": "Blue",
+            "route_name": "Bowdoin",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 2524,
+            "stops": [
+                {
+                    "stop_name": "Bowdoin",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Aquarium",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Maverick",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Airport",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Wood Island",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Orient Heights",
+                    "avg_wait_time": 38
+                },
+                {
+                    "stop_name": "Suffolk Downs",
+                    "avg_wait_time": 34
+                },
+                {
+                    "stop_name": "Beachmont",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Revere Beach",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Wonderland",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Blue",
+            "route_name": "Bowdoin",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 3233,
+            "stops": [
+                {
+                    "stop_name": "Bowdoin",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Aquarium",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Maverick",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Airport",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Wood Island",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Orient Heights",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Suffolk Downs",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Beachmont",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Revere Beach",
+                    "avg_wait_time": 39
+                },
+                {
+                    "stop_name": "Wonderland",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Blue",
+            "route_name": "Bowdoin",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 2888,
+            "stops": [
+                {
+                    "stop_name": "Wonderland",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Revere Beach",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Beachmont",
+                    "avg_wait_time": 38
+                },
+                {
+                    "stop_name": "Suffolk Downs",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Orient Heights",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Wood Island",
+                    "avg_wait_time": 38
+                },
+                {
+                    "stop_name": "Airport",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Maverick",
+                    "avg_wait_time": 61
+                },
+                {
+                    "stop_name": "Aquarium",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 63
+                },
+                {
+                    "stop_name": "Bowdoin",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Blue",
+            "route_name": "Bowdoin",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 3026,
+            "stops": [
+                {
+                    "stop_name": "Wonderland",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Revere Beach",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Beachmont",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Suffolk Downs",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Orient Heights",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Wood Island",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Airport",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Maverick",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Aquarium",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 64
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Bowdoin",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-B",
+            "route_name": "Boston College",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 5000,
+            "stops": [
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 91
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Blandford Street",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Boston University East",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Boston University Central",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Amory Street",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Babcock Street",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Packard's Corner",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Harvard Avenue",
+                    "avg_wait_time": 96
+                },
+                {
+                    "stop_name": "Griggs Street",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Allston Street",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Warren Street",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Washington Street",
+                    "avg_wait_time": 69
+                },
+                {
+                    "stop_name": "Sutherland Road",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Chiswick Road",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Chestnut Hill Avenue",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "South Street",
+                    "avg_wait_time": 30
+                },
+                {
+                    "stop_name": "Boston College",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-B",
+            "route_name": "Boston College",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 5219,
+            "stops": [
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 116
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 102
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Blandford Street",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Boston University East",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Boston University Central",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Amory Street",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Babcock Street",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Packard's Corner",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Harvard Avenue",
+                    "avg_wait_time": 71
+                },
+                {
+                    "stop_name": "Griggs Street",
+                    "avg_wait_time": 39
+                },
+                {
+                    "stop_name": "Allston Street",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Warren Street",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Washington Street",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Sutherland Road",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Chiswick Road",
+                    "avg_wait_time": 28
+                },
+                {
+                    "stop_name": "Chestnut Hill Avenue",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "South Street",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Boston College",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-B",
+            "route_name": "Boston College",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 2292,
+            "stops": [
+                {
+                    "stop_name": "Chestnut Hill Avenue",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Chiswick Road",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Sutherland Road",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Washington Street",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Warren Street",
+                    "avg_wait_time": 79
+                },
+                {
+                    "stop_name": "Allston Street",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Griggs Street",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Harvard Avenue",
+                    "avg_wait_time": 101
+                },
+                {
+                    "stop_name": "Packard's Corner",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Babcock Street",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Amory Street",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Boston University Central",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Boston University East",
+                    "avg_wait_time": 84
+                },
+                {
+                    "stop_name": "Blandford Street",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 106
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 83
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 80
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-B",
+            "route_name": "Boston College",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 2537,
+            "stops": [
+                {
+                    "stop_name": "Sutherland Road",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Washington Street",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Warren Street",
+                    "avg_wait_time": 89
+                },
+                {
+                    "stop_name": "Allston Street",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Griggs Street",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Harvard Avenue",
+                    "avg_wait_time": 74
+                },
+                {
+                    "stop_name": "Packard's Corner",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Babcock Street",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Amory Street",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Boston University Central",
+                    "avg_wait_time": 84
+                },
+                {
+                    "stop_name": "Boston University East",
+                    "avg_wait_time": 67
+                },
+                {
+                    "stop_name": "Blandford Street",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-C",
+            "route_name": "Cleveland Circle",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 3248,
+            "stops": [
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 64
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 74
+                },
+                {
+                    "stop_name": "Saint Mary's Street",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Hawes Street",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Kent Street",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Saint Paul Street",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Coolidge Corner",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Summit Avenue",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Brandon Hall",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Fairbanks Street",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Washington Square",
+                    "avg_wait_time": 71
+                },
+                {
+                    "stop_name": "Tappan Street",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Dean Road",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Englewood Avenue",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Cleveland Circle",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-C",
+            "route_name": "Cleveland Circle",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 4241,
+            "stops": [
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 75
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 102
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Saint Mary's Street",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Hawes Street",
+                    "avg_wait_time": 33
+                },
+                {
+                    "stop_name": "Kent Street",
+                    "avg_wait_time": 71
+                },
+                {
+                    "stop_name": "Saint Paul Street",
+                    "avg_wait_time": 78
+                },
+                {
+                    "stop_name": "Coolidge Corner",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Summit Avenue",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Brandon Hall",
+                    "avg_wait_time": 38
+                },
+                {
+                    "stop_name": "Fairbanks Street",
+                    "avg_wait_time": 30
+                },
+                {
+                    "stop_name": "Washington Square",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Tappan Street",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Dean Road",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Englewood Avenue",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Cleveland Circle",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-C",
+            "route_name": "Cleveland Circle",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 1114,
+            "stops": [
+                {
+                    "stop_name": "Saint Mary's Street",
+                    "avg_wait_time": 70
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 159
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 83
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 80
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-C",
+            "route_name": "Cleveland Circle",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 1914,
+            "stops": [
+                {
+                    "stop_name": "Englewood Avenue",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Dean Road",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Tappan Street",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Washington Square",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Fairbanks Street",
+                    "avg_wait_time": 30
+                },
+                {
+                    "stop_name": "Brandon Hall",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Summit Avenue",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Coolidge Corner",
+                    "avg_wait_time": 82
+                },
+                {
+                    "stop_name": "Saint Paul Street",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Kent Street",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Hawes Street",
+                    "avg_wait_time": 18
+                },
+                {
+                    "stop_name": "Saint Mary's Street",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 67
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-D",
+            "route_name": "Riverside",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 3592,
+            "stops": [
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 34
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 12
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 74
+                },
+                {
+                    "stop_name": "Fenway",
+                    "avg_wait_time": 259
+                },
+                {
+                    "stop_name": "Longwood",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Brookline Village",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Brookline Hills",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Beaconsfield",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Reservoir",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Chestnut Hill",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Newton Centre",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Newton Highlands",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Eliot",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Waban",
+                    "avg_wait_time": 31
+                },
+                {
+                    "stop_name": "Woodland",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Riverside",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-D",
+            "route_name": "Riverside",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 3654,
+            "stops": [
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 75
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 11
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 62
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 82
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 92
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Fenway",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Longwood",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Brookline Village",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Brookline Hills",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Beaconsfield",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Reservoir",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Chestnut Hill",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Newton Centre",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Newton Highlands",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Eliot",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Waban",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Woodland",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Riverside",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-D",
+            "route_name": "Riverside",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 3508,
+            "stops": [
+                {
+                    "stop_name": "Woodland",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Waban",
+                    "avg_wait_time": 31
+                },
+                {
+                    "stop_name": "Eliot",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Newton Highlands",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Newton Centre",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Chestnut Hill",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Reservoir",
+                    "avg_wait_time": 61
+                },
+                {
+                    "stop_name": "Beaconsfield",
+                    "avg_wait_time": 30
+                },
+                {
+                    "stop_name": "Brookline Hills",
+                    "avg_wait_time": 29
+                },
+                {
+                    "stop_name": "Brookline Village",
+                    "avg_wait_time": 52
+                },
+                {
+                    "stop_name": "Longwood",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Fenway",
+                    "avg_wait_time": 61
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 159
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 83
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 80
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 25
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 31
+                },
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Union Square",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-D",
+            "route_name": "Riverside",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 4038,
+            "stops": [
+                {
+                    "stop_name": "Newton Highlands",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Newton Centre",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Chestnut Hill",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Reservoir",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Beaconsfield",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Brookline Hills",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Brookline Village",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Longwood",
+                    "avg_wait_time": 52
+                },
+                {
+                    "stop_name": "Fenway",
+                    "avg_wait_time": 52
+                },
+                {
+                    "stop_name": "Kenmore",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Hynes Convention Center",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 20
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 88
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 240
+                },
+                {
+                    "stop_name": "Union Square",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-E",
+            "route_name": "Heath Street",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 2184,
+            "stops": [
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 34
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 12
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 64
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 37
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Prudential",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Symphony",
+                    "avg_wait_time": 38
+                },
+                {
+                    "stop_name": "Northeastern University",
+                    "avg_wait_time": 96
+                },
+                {
+                    "stop_name": "Museum of Fine Arts",
+                    "avg_wait_time": 91
+                },
+                {
+                    "stop_name": "Longwood Medical Area",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Brigham Circle",
+                    "avg_wait_time": 105
+                },
+                {
+                    "stop_name": "Fenwood Road",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Mission Park",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Riverway",
+                    "avg_wait_time": 29
+                },
+                {
+                    "stop_name": "Back of the Hill",
+                    "avg_wait_time": 17
+                },
+                {
+                    "stop_name": "Heath Street",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-E",
+            "route_name": "Heath Street",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 3995,
+            "stops": [
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 80
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 105
+                },
+                {
+                    "stop_name": "Prudential",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Symphony",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Northeastern University",
+                    "avg_wait_time": 104
+                },
+                {
+                    "stop_name": "Museum of Fine Arts",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Longwood Medical Area",
+                    "avg_wait_time": 57
+                },
+                {
+                    "stop_name": "Brigham Circle",
+                    "avg_wait_time": 89
+                },
+                {
+                    "stop_name": "Fenwood Road",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Mission Park",
+                    "avg_wait_time": 73
+                },
+                {
+                    "stop_name": "Riverway",
+                    "avg_wait_time": 12
+                },
+                {
+                    "stop_name": "Back of the Hill",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Heath Street",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-E",
+            "route_name": "Heath Street",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 5126,
+            "stops": [
+                {
+                    "stop_name": "Heath Street",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Back of the Hill",
+                    "avg_wait_time": 12
+                },
+                {
+                    "stop_name": "Riverway",
+                    "avg_wait_time": 18
+                },
+                {
+                    "stop_name": "Mission Park",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Fenwood Road",
+                    "avg_wait_time": 12
+                },
+                {
+                    "stop_name": "Brigham Circle",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Longwood Medical Area",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Museum of Fine Arts",
+                    "avg_wait_time": 36
+                },
+                {
+                    "stop_name": "Northeastern University",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Symphony",
+                    "avg_wait_time": 39
+                },
+                {
+                    "stop_name": "Prudential",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 52
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 80
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 25
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 31
+                },
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "East Somerville",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Gilman Square",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Magoun Square",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Ball Square",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Medford/Tufts",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Green-E",
+            "route_name": "Heath Street",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 4596,
+            "stops": [
+                {
+                    "stop_name": "Heath Street",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Back of the Hill",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Riverway",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Mission Park",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Fenwood Road",
+                    "avg_wait_time": 18
+                },
+                {
+                    "stop_name": "Brigham Circle",
+                    "avg_wait_time": 116
+                },
+                {
+                    "stop_name": "Longwood Medical Area",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Museum of Fine Arts",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Northeastern University",
+                    "avg_wait_time": 144
+                },
+                {
+                    "stop_name": "Symphony",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Prudential",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Copley",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Arlington",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Boylston",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "Government Center",
+                    "avg_wait_time": 25
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 77
+                },
+                {
+                    "stop_name": "Science Park/West End",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Lechmere",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "East Somerville",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Gilman Square",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Magoun Square",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Ball Square",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Medford/Tufts",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Orange",
+            "route_name": "Forest Hills",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 5397,
+            "stops": [
+                {
+                    "stop_name": "Oak Grove",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Malden Center",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Wellington",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Assembly",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Sullivan Square",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Community College",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 20
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Chinatown",
+                    "avg_wait_time": 42
+                },
+                {
+                    "stop_name": "Tufts Medical Center",
+                    "avg_wait_time": 15
+                },
+                {
+                    "stop_name": "Back Bay",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Massachusetts Avenue",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Ruggles",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Roxbury Crossing",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Jackson Square",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Stony Brook",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Green Street",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Forest Hills",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Orange",
+            "route_name": "Forest Hills",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 5670,
+            "stops": [
+                {
+                    "stop_name": "Oak Grove",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Malden Center",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Wellington",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Assembly",
+                    "avg_wait_time": 52
+                },
+                {
+                    "stop_name": "Sullivan Square",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Community College",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 17
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Chinatown",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Tufts Medical Center",
+                    "avg_wait_time": 16
+                },
+                {
+                    "stop_name": "Back Bay",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Massachusetts Avenue",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Ruggles",
+                    "avg_wait_time": 57
+                },
+                {
+                    "stop_name": "Roxbury Crossing",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Jackson Square",
+                    "avg_wait_time": 39
+                },
+                {
+                    "stop_name": "Stony Brook",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Green Street",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Forest Hills",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Orange",
+            "route_name": "Forest Hills",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 5556,
+            "stops": [
+                {
+                    "stop_name": "Forest Hills",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Green Street",
+                    "avg_wait_time": 18
+                },
+                {
+                    "stop_name": "Stony Brook",
+                    "avg_wait_time": 35
+                },
+                {
+                    "stop_name": "Jackson Square",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Roxbury Crossing",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Ruggles",
+                    "avg_wait_time": 19
+                },
+                {
+                    "stop_name": "Massachusetts Avenue",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Back Bay",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Tufts Medical Center",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Chinatown",
+                    "avg_wait_time": 44
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 62
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Community College",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Sullivan Square",
+                    "avg_wait_time": 68
+                },
+                {
+                    "stop_name": "Assembly",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Wellington",
+                    "avg_wait_time": 67
+                },
+                {
+                    "stop_name": "Malden Center",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Oak Grove",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Orange",
+            "route_name": "Forest Hills",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 5613,
+            "stops": [
+                {
+                    "stop_name": "Forest Hills",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Green Street",
+                    "avg_wait_time": 16
+                },
+                {
+                    "stop_name": "Stony Brook",
+                    "avg_wait_time": 34
+                },
+                {
+                    "stop_name": "Jackson Square",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Roxbury Crossing",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Ruggles",
+                    "avg_wait_time": 17
+                },
+                {
+                    "stop_name": "Massachusetts Avenue",
+                    "avg_wait_time": 62
+                },
+                {
+                    "stop_name": "Back Bay",
+                    "avg_wait_time": 59
+                },
+                {
+                    "stop_name": "Tufts Medical Center",
+                    "avg_wait_time": 57
+                },
+                {
+                    "stop_name": "Chinatown",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "State",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Haymarket",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "North Station",
+                    "avg_wait_time": 46
+                },
+                {
+                    "stop_name": "Community College",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Sullivan Square",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Assembly",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Wellington",
+                    "avg_wait_time": 61
+                },
+                {
+                    "stop_name": "Malden Center",
+                    "avg_wait_time": 63
+                },
+                {
+                    "stop_name": "Oak Grove",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Red",
+            "route_name": "Ashmont/Braintree",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240917",
+            "total_trip_time": 3547,
+            "stops": [
+                {
+                    "stop_name": "Alewife",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Davis",
+                    "avg_wait_time": 56
+                },
+                {
+                    "stop_name": "Porter",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Harvard",
+                    "avg_wait_time": 83
+                },
+                {
+                    "stop_name": "Central",
+                    "avg_wait_time": 89
+                },
+                {
+                    "stop_name": "Kendall/MIT",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "Charles/MGH",
+                    "avg_wait_time": 54
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "South Station",
+                    "avg_wait_time": 14
+                },
+                {
+                    "stop_name": "Broadway",
+                    "avg_wait_time": 18
+                },
+                {
+                    "stop_name": "Andrew",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "JFK/UMass",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Savin Hill",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Fields Corner",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Shawmut",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Ashmont",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Red",
+            "route_name": "Ashmont/Braintree",
+            "direction_id": 0,
+            "direction": "West",
+            "start_date": "20240926",
+            "total_trip_time": 5186,
+            "stops": [
+                {
+                    "stop_name": "Alewife",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Davis",
+                    "avg_wait_time": 50
+                },
+                {
+                    "stop_name": "Porter",
+                    "avg_wait_time": 41
+                },
+                {
+                    "stop_name": "Harvard",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Central",
+                    "avg_wait_time": 58
+                },
+                {
+                    "stop_name": "Kendall/MIT",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "Charles/MGH",
+                    "avg_wait_time": 60
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 83
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 74
+                },
+                {
+                    "stop_name": "South Station",
+                    "avg_wait_time": 13
+                },
+                {
+                    "stop_name": "Broadway",
+                    "avg_wait_time": 19
+                },
+                {
+                    "stop_name": "Andrew",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "JFK/UMass",
+                    "avg_wait_time": 81
+                },
+                {
+                    "stop_name": "Savin Hill",
+                    "avg_wait_time": 66
+                },
+                {
+                    "stop_name": "Fields Corner",
+                    "avg_wait_time": 96
+                },
+                {
+                    "stop_name": "Shawmut",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "Ashmont",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Red",
+            "route_name": "Ashmont/Braintree",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240917",
+            "total_trip_time": 1723,
+            "stops": [
+                {
+                    "stop_name": "Ashmont",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Shawmut",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Fields Corner",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Savin Hill",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "JFK/UMass",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Andrew",
+                    "avg_wait_time": 15
+                },
+                {
+                    "stop_name": "Broadway",
+                    "avg_wait_time": 51
+                },
+                {
+                    "stop_name": "South Station",
+                    "avg_wait_time": 28
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 43
+                },
+                {
+                    "stop_name": "Charles/MGH",
+                    "avg_wait_time": 53
+                },
+                {
+                    "stop_name": "Kendall/MIT",
+                    "avg_wait_time": 49
+                },
+                {
+                    "stop_name": "Central",
+                    "avg_wait_time": 45
+                },
+                {
+                    "stop_name": "Harvard",
+                    "avg_wait_time": 40
+                },
+                {
+                    "stop_name": "Porter",
+                    "avg_wait_time": 10
+                },
+                {
+                    "stop_name": "Davis",
+                    "avg_wait_time": 11
+                },
+                {
+                    "stop_name": "Alewife",
+                    "avg_wait_time": 0
+                }
+            ]
+        },
+        {
+            "route_id": "Red",
+            "route_name": "Ashmont/Braintree",
+            "direction_id": 1,
+            "direction": "East",
+            "start_date": "20240926",
+            "total_trip_time": 5678,
+            "stops": [
+                {
+                    "stop_name": "Ashmont",
+                    "avg_wait_time": 0
+                },
+                {
+                    "stop_name": "Shawmut",
+                    "avg_wait_time": 47
+                },
+                {
+                    "stop_name": "Fields Corner",
+                    "avg_wait_time": 48
+                },
+                {
+                    "stop_name": "Savin Hill",
+                    "avg_wait_time": 65
+                },
+                {
+                    "stop_name": "JFK/UMass",
+                    "avg_wait_time": 61
+                },
+                {
+                    "stop_name": "Andrew",
+                    "avg_wait_time": 17
+                },
+                {
+                    "stop_name": "Broadway",
+                    "avg_wait_time": 55
+                },
+                {
+                    "stop_name": "South Station",
+                    "avg_wait_time": 62
+                },
+                {
+                    "stop_name": "Downtown Crossing",
+                    "avg_wait_time": 64
+                },
+                {
+                    "stop_name": "Park Street",
+                    "avg_wait_time": 72
+                },
+                {
+                    "stop_name": "Charles/MGH",
+                    "avg_wait_time": 73
+                },
+                {
+                    "stop_name": "Kendall/MIT",
+                    "avg_wait_time": 74
+                },
+                {
+                    "stop_name": "Central",
+                    "avg_wait_time": 71
+                },
+                {
+                    "stop_name": "Harvard",
+                    "avg_wait_time": 64
+                },
+                {
+                    "stop_name": "Porter",
+                    "avg_wait_time": 16
+                },
+                {
+                    "stop_name": "Davis",
+                    "avg_wait_time": 19
+                },
+                {
+                    "stop_name": "Alewife",
+                    "avg_wait_time": 0
+                }
+            ]
+        }
+    ]
+}

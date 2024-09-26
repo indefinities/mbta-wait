@@ -1,7 +1,8 @@
-@import './_variables';
+@import "./_variables";
 
-// :root {
-// }
+:root {
+    font-family: $mbta-font-family;
+}
 
 html, body, section {
     margin: 0;
@@ -19,9 +20,26 @@ h2 {
     margin: 0;
 }
 
-h3 {
+p {
+    font-size: $mbta-p-font-size;
+    margin: 0;
 }
 
-p {
-    margin: 0;
+.centered-page {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.centered-section {
+    scroll-margin-top: 75px;
+    width: 100%;
+    max-width: 800px;
+    margin: 1em;
+
+    @media (min-width: 768px) {
+        margin: 2em;
+    }
 }

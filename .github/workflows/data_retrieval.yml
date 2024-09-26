@@ -1,5 +1,6 @@
 name: "retrieve and filter data"
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Runs workflow at 12:00am every day
@@ -11,7 +12,7 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
       - name: "Download updated trip updates file"
-        run: pwd && curl "https://cdn.mbta.com/realtime/TripUpdates_enhanced.json" > ./src/lib/data/trip_updates.json
+        run: pwd && curl "https://cdn.mbta.com/realtime/TripUpdates_enhanced.json" > ./src/lib/data/new_trip_updates.json
       # https://github.com/actions/setup-python
       - name: "Use Python"
         uses: actions/setup-python@v5
@@ -20,4 +21,14 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip pandas
       - name: "Run Python script"
-        run: python ./src/lib/parse_data.py
+        run: python parse_data.py
+        working-directory: src/lib
+      - name: "Set Git Config"
+        run: git config user.name 'github-actions[bot]' &&
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: "Push updated file onto main branch"
+        run: git add .
+      - name: "Git commit if there are new changes"
+        run: git commit -m "Updating and parsing data."
+      - name: "Push to origin/main"
+        run: git push

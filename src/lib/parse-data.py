@@ -21,21 +21,42 @@ df1 = pd.read_csv("data/directions.txt")
 lines_pattern = '|'.join(line_colors)
 nonlines_pattern = '|'.join(nonlines)
 
+# Check if the route_id follows the regex pattern (if the route_id includes the subway name colors)
 dir = df1[(df1['route_id'].str.contains(lines_pattern, case=False, na=False)) & (~df1['route_id'].str.contains(nonlines_pattern, regex=True))]
 # Shuttles will be a future iteration
 
-# Open the JSON file and load its contents
-with open('data/trip_updates.json', 'r') as file:
-    json_data = json.load(file)
+# Open the existing trips JSON file and load its contents
+with open('data/existing_trip_updates.json', 'r') as file:
+    json_data1 = json.load(file)
 
 # Access the "entity" key
-entity = json_data.get('entity', [])
+entity = json_data1.get('entity', [])
 
+# Open the new trips JSON file and load its contents
+with open('data/new_trip_updates.json', 'r') as file:
+    json_data2 = json.load(file)
+
+# Access the "entity" key as "new_entity"
+new_entity = json_data2.get('entity', [])
+
+# Combine both entity arrays together using +
+all_entity = entity + new_entity;
+
+# Create a new dictionary with the "entity" key as JSON format
+all_entity_obj = { "entity": all_entity }
+# Turn the dictionary into a str using json/dumps
+all_entity_json = json.dumps(all_entity_obj)
+
+# Export all entities into trip_updates.json
+with open("data/trip_updates.json", "w") as outfile:
+    outfile.write(all_entity_json)
+
+# Create an empty list to gather all trips as the 
+# arr is being iterated through
 all_trips = list()
-
 # Process each item in the entity list
 # and match ids with route and direction names
-for entry in entity:
+for entry in all_entity:
     trip_update = entry.get('trip_update', {})
     trip = trip_update.get('trip', {})
     route_id = trip.get('route_id')
@@ -51,23 +72,23 @@ for entry in entity:
         route_name = dir.loc[dir['route_id'] == route_id, 'direction_destination'].values[0]
         direction = dir.loc[dir['direction_id'] == direction_id, 'direction'].values[0]
         start_date = trip.get('start_date')
-        start_time = trip.get('start_time', 0)
+        start_time = trip.get('start_time')
 
         for stop in stop_time_update:
             stop_id = stop.get('stop_id')
             stop_name = stops.loc[stops['stop_id'] == stop_id, 'stop_name'].values[0]
-            start_ms = datetime.strptime(f'{start_date} {start_time}',
-                        '%Y%m%d %H:%M:%S').timestamp() * 1000
             arrival = stop.get('arrival', dict(time = 0)).get('time', 0)
             departure = stop.get('departure', dict(time = 0)).get('time', 0)
             wait_time = int(departure) - int(arrival) if departure > arrival > 0 else 0
+            # Combine route, direction, and stop into one dictionary 
+            # For easy use with pandas dataframe
             new_entry = {
                 'route_id': route_id,
                 'route_name': route_name,
                 'direction_id': direction_id,
                 'direction': direction,
                 'start_date': start_date,
-                'start_time': start_ms,
+                'start_time': start_time,
                 'stop_id': stop_id,
                 'stop_name': stop_name,
                 'arrival': arrival,
@@ -76,17 +97,30 @@ for entry in entity:
             }
             all_trips.append(new_entry)
 
+# TODO: find the average trip duration for the trip by subtracting the departure of the first stop (start_time)
+# minus the arrival of the last stop and add those to the first and last elements of the JSON
+
+# Create a new dataframe from the array of dictionaries 
+# (this should be easier because dictionaries are not nested and have same column names)
 all_trips_df = pd.DataFrame(all_trips)
 all_trips_df['avg_wait_time'] = all_trips_df.groupby(['start_date', 'route_id', 'direction_id', 'stop_id'])['wait_time'].transform('mean')
 grouped_trips = all_trips_df[['route_id', 'route_name', 'direction_id', 'direction', 'start_date', 'stop_name', 'avg_wait_time']].drop_duplicates()
 # Initialize an empty dictionary for the JSON structure
-grouped_trips_json = {"trips": []}
+grouped_trips_obj = {"trips": []}
+
+# Get the current dates available for the data
+curr_dates_df = all_trips_df[['start_date']].drop_duplicates()
+curr_dates = curr_dates_df['start_date'].tolist()
+curr_dates_json = json.dumps(dict(dates=curr_dates))
+
+with open("data/curr_dates.json", "w") as outfile:
+    outfile.write(curr_dates_json)
 
 with open('data/mbta_lines.json', 'r') as file:
-    json_data = json.load(file)
+    json_data3 = json.load(file)
 
 # Access the "entity" key
-mbta_lines = json_data.get('lines', [])
+mbta_lines = json_data3.get('lines', [])
 
 def order_subset(subset, superset, dir_id):
     for element in superset:
@@ -97,7 +131,7 @@ def order_subset(subset, superset, dir_id):
 def order_subset_by_superset(subset, superset, dir_id):
     order = superset.copy()
     if dir_id > 0: order.reverse()
-    index_map = {element: i for i, element in enumerate(superset)}
+    index_map = {element: i for i, element in enumerate(order)}
     sorted_subset = [element for element in subset if element in index_map]
     result = sorted(sorted_subset, key=lambda x: index_map[x])
     return result
@@ -125,10 +159,10 @@ for (route_id, route_name, direction_id, direction, start_date), group in groupe
         "start_date": start_date,
         "stops": sort_stops(direction_id, group[["stop_name", "avg_wait_time"]].to_dict(orient='records'))
     }
-    grouped_trips_json["trips"].append(trip)
+    grouped_trips_obj["trips"].append(trip)
 
 # Change dictionary into json.dumps to export JSONs
-trips_obj = json.dumps(grouped_trips_json)
+grouped_trips_json = json.dumps(grouped_trips_obj)
 
 with open("data/grouped_trips.json", "w") as outfile:
-    outfile.write(trips_obj)
+    outfile.write(grouped_trips_json)

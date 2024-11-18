@@ -1,8 +1,8 @@
 name: "retrieve and filter data"
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # Runs workflow at 12:00am every day
+  # schedule:
+  #   - cron: '0 0 * * *' # Runs workflow at 12:00am every day
 jobs:
   # updates the local CSV file
   update-json:

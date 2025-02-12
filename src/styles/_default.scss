@@ -1,4 +1,4 @@
-@import "./_variables";
+@import "./variables.scss";
 
 :root {
     font-family: $mbta-font-family;
@@ -8,9 +8,6 @@ html, body, section {
     margin: 0;
     padding: 0;
 }
-
-// a {
-// }
 
 h1 {
     margin: 0;

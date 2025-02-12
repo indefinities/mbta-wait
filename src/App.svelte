@@ -1,4 +1,5 @@
 <script>
+  import "./app.css";
   import Intro from './lib/Intro.svelte';
   import Viz from './lib/Visualization.svelte'
 </script>
